@@ -11,6 +11,7 @@ for a in range(1, 101):
                 list[b] = 1
             else:
                 list[b] = 0
+print("The following doors are open: ", end="")
 for c in range(100):
     if list[c] == 1:
-        print(c + 1, ". ", sep="")
+        print(c + 1, "", sep=', ', end='')
